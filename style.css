@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-middle{
+    height: auto;
+    background-color: #2196f3;
+    margin: 0 auto;
+    line-height: 58px;
+}
+header a{
+    color: #ffffff;
+}
+a{
+    display: block;
+}
+h1{ 
+    padding-top: 10px;
+    width: 130px;
+    height: 24px;
+}
+.l-svg{
+    line-height: 58px;
+}
+.header-right{
+    position: relative;
+    display: block;
+    line-height: 58px;
+}
+.r-svg{
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 22px;
+    right: 0;
+}
+path,rect,g{
+    fill: #ffffff;
+}
