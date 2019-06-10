@@ -3,6 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+.top-triangle{
+    width: 100%;
+    height: 500px;
+    background-color: #2196F3;
+    transform: skewY(-5deg) translateY(-90%);
+    position: absolute;
+}
+.bottom-triangle{
+    width: 100%;
+    height: 660px;
+    background-color:#fff;
+    transform: skewY(-5deg) translateY(76%);
+    position: absolute;
+}
 /* header部分 */
 .header-middle{
     height: auto;
@@ -50,6 +64,7 @@ path,rect,g{
 /* 总体部分  */
 .wrapper{
     width: 100%;
+    height:600px;
     background-color: #1E88E5;
 }
 /* content */
@@ -87,6 +102,9 @@ path,rect,g{
     background-color: #FF9100;
     position: relative;
     top: -1px;
+}
+.items, .item-svg{
+    height: 400px;
 }
 /* svg */
 .iframe{
