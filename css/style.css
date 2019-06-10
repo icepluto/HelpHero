@@ -1,0 +1,97 @@
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header部分 */
+.header-middle{
+    height: auto;
+    background-color: #1E88E5;
+    margin: 0 auto;
+    line-height: 58px;
+}
+header a{
+    color: #ffffff;
+}
+header a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2196F3;
+}
+a{
+    display: block;
+    text-align: center;
+}
+h1{ 
+    padding-top: 10px;
+    width: 130px;
+    line-height: 58px;
+}
+.l-svg{
+    width: 130px;
+    line-height: 58px;
+}
+.header-right{
+    position: relative;
+    display: block;
+    line-height: 58px;
+}
+.r-svg{
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 22px;
+    right: 0;
+}
+path,rect,g{
+    fill: #ffffff;
+}
+/* 总体部分  */
+.wrapper{
+    width: 100%;
+    background-color: #1E88E5;
+}
+/* content */
+.content{
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.content div{
+    margin-bottom: 50px;
+}
+.item-h1{
+    height: 100px;
+}
+.item-a a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+.item-p{
+    color: rgba(255, 255, 255, 0.8);
+}
+.item-a a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.item-a{
+    background-color: #ffab40;
+}
+.item-a{
+    border-radius: 5px;
+    padding: 10px;
+}
+.item-a:hover{
+    background-color: #FF9100;
+    position: relative;
+    top: -1px;
+}
+/* svg */
+.iframe{
+    overflow: hidden;
+    width: 660px;
+    height: 500px;
+    transform: scale(0.9) translateX(-25px) translateY(-30px) perspective(3090px) rotateY(-29deg) rotateX(2deg) rotate(1deg);
+}
