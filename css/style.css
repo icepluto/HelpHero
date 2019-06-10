@@ -113,3 +113,27 @@ path,rect,g{
     height: 500px;
     transform: scale(0.9) translateX(-25px) translateY(-30px) perspective(3090px) rotateY(-29deg) rotateX(2deg) rotate(1deg);
 }
+/* main部分 */
+.main{
+    position: relative;
+    text-align: center;
+}
+.main-logo{
+    padding: 10px;
+}
+.main img{
+    display: inline-block;
+    height: 40px;
+    margin: 5px 15px;
+}
+.bk{
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    background-color: #FF9100;
+}
+
+.summary-item{
+    margin: 0 auto;
+}
+
